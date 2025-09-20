@@ -10,6 +10,8 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, Legend,
   LineChart, Line, CartesianGrid
 } from "recharts";
+import Chatbot from "./components/chatBot"
+
 
 const { Header, Content } = Layout;
 const { Option } = Select;
@@ -317,7 +319,7 @@ export default function Dashboard() {
             </Card>
           </Col>
         </Row>
-
+        <Chatbot />
         {/* Filters + Table */}
         <Row style={{ marginTop: 30 }}>
           <Col span={24}>
